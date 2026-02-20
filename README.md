@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# 🛒 ShopZone — React Router SPA (Level 1)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ShopZone is a Single Page Application (SPA) e-commerce frontend built using React and React Router.
+It demonstrates dynamic routing, clean component architecture, and API integration — all without full page reloads.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Features
 
-### `npm start`
+✅ React Router based SPA navigation
+✅ Dynamic product routing (`/product/:id`)
+✅ Product listing from DummyJSON API
+✅ Persistent Navbar across pages
+✅ Clean and scalable folder structure
+✅ Fast client-side navigation (no page refresh)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Tech Stack
 
-### `npm test`
+* React (Create React App)
+* React Router DOM
+* JavaScript (ES6+)
+* DummyJSON Products API
+* CSS (basic styling)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   └── ProductCard.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Shop.jsx
+│   ├── ProductDetails.jsx
+│   └── Contact.jsx
+│
+├── services/
+│   └── productService.js
+│
+├── App.js
+└── index.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔗 Routes Implemented
 
-### `npm run eject`
+| Route          | Description             |
+| -------------- | ----------------------- |
+| `/`            | Home page               |
+| `/shop`        | Product listing         |
+| `/product/:id` | Dynamic product details |
+| `/contact`     | Contact form            |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1️⃣ Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/YOUR_USERNAME/shopzone-spa.git
+cd shopzone-spa
+```
 
-## Learn More
+### 2️⃣ Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3️⃣ Run the development server
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+App will run at:
 
-### Analyzing the Bundle Size
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧪 Key Learning Outcomes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Implemented client-side routing using React Router
+* Built dynamic routes using `useParams()`
+* Consumed external REST API
+* Created reusable components
+* Maintained SPA behavior without reloads
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Upcoming Enhancements
 
-### Deployment
+🔜 Global Cart using Context API (Level 2)
+🔜 Persistent cart with localStorage (Level 3)
+🔜 Authentication & Protected Routes
+🔜 UI polish with modern styling
+🔜 Deployment to Vercel/Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Abhay Chayal**
+B.Tech Student | Aspiring Data Scientist & FrontEnd Developer
+
+---
+
+⭐ If you found this project useful, feel free to star the repository!
