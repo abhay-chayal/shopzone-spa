@@ -14,7 +14,11 @@ const ProductDetails = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <img src={product.thumbnail} width="220" />
+      <img
+        src={product.thumbnail}
+        alt={product.title}
+        width="220"
+      />
       <h2>{product.title}</h2>
       <p>{product.description}</p>
       <h3>₹{product.price}</h3>
